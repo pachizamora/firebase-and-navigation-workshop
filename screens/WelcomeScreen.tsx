@@ -1,14 +1,10 @@
-import "./config/firebase";
-import { StatusBar } from "expo-status-bar";
 import { StyleSheet, Text, View } from "react-native";
-import RootNavigation from "./navigation";
-import "react-native-gesture-handler";
+import React from "react";
 
-export default function App() {
+export default function WelcomeScreen() {
   return (
     <View style={styles.container}>
-      <RootNavigation />
-      <StatusBar style="auto" />
+      <Text>Welcome Screen!</Text>
     </View>
   );
 }
